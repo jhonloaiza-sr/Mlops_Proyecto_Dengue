@@ -2,7 +2,7 @@
 
 Este repositorio contiene la implementación de una arquitectura MLOps completa orientada a la salud pública. El sistema simula las decisiones de un Agente de Aprendizaje por Refuerzo (RL) para recomendar dinámicamente la liberación de mosquitos infectados con *Wolbachia*, optimizando los recursos logísticos frente a variables climáticas y epidemiológicas en la ciudad de Cali.
 
-## 👥 Equipo de Trabajo
+##  Equipo de Trabajo
 *   **Juan Manuel Cajigas Eraso**
 *   **Jonathan Giraldo Diaz Ortega**
 *   **Eliphas Levi Arias**
@@ -10,7 +10,7 @@ Este repositorio contiene la implementación de una arquitectura MLOps completa 
 
 ---
 
-## 🏗️ Arquitectura del Proyecto
+##  Arquitectura del Proyecto
 
 El proyecto sigue las mejores prácticas de la industria en MLOps, garantizando reproducibilidad, trazabilidad y monitoreo en tiempo real:
 
@@ -23,7 +23,7 @@ El proyecto sigue las mejores prácticas de la industria en MLOps, garantizando 
 
 ---
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```text
 proyecto_mlops_dengue/
@@ -57,7 +57,7 @@ proyecto_mlops_dengue/
 
 ---
 
-## 🚀 Guía de Reproducción (Auditoría)
+##  Guía de Reproducción (Auditoría)
 
 Para replicar y auditar la arquitectura en un entorno local, siga estos pasos estrictamente en orden:
 
@@ -90,7 +90,7 @@ python -m src.train
 python -m src.register_model
 ```
 
-*📌 **Nota de Auditoría:** Puede verificar los artefactos generados (matrices de error, curvas de aprendizaje) revisando las carpetas `reports/figures/` y `reports/metrics/`.*
+* **Nota de Auditoría:** Puede verificar los artefactos generados (matrices de error, curvas de aprendizaje) revisando las carpetas `reports/figures/` y `reports/metrics/`.*
 
 ### 3. Despliegue de Servicios MLOps
 Para ver el sistema en funcionamiento, es necesario levantar 3 terminales independientes (asegúrese de tener el entorno virtual activado en cada una):
@@ -116,7 +116,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 📊 Monitoreo y Mantenimiento
+##  Monitoreo y Mantenimiento
 
 Este proyecto simula un entorno listo para producción, por lo que incluye:
 
