@@ -1,0 +1,15 @@
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MLflow
+mlruns/
+*.db
+
+# Variables de entorno
+.env
